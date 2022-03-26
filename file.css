@@ -449,7 +449,14 @@ padding-left: 20em;
 }
 .column3{
   text-align: left;
+  padding-left:5em;
 }
 .otsikko2{
   text-align: left;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 23px;
+    color:rgb(243, 11, 166);
+    font-weight: bold;
+    padding: 2%;
+    letter-spacing: 3px;
 }
