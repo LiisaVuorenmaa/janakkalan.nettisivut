@@ -28,6 +28,7 @@ footer{
 .nav.fixed-top{
   background-color:rgba(0, 0, 0, 0.438);
   width:100%;
+  
 }
 
 .navbar-brand2{
@@ -38,7 +39,10 @@ footer{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 30px;
 }
-
+.nav-item{
+  margin-left: auto;
+  margin-right: auto;
+}
 .navbar-brand2:hover{
     color:  rgb(99, 75, 233);
 }
