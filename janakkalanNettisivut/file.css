@@ -23,7 +23,7 @@ footer{
     font-weight:600;
     color:white;
 }
-/* NAV BAR KOODI ALKAA */
+/* NAV BAR KOODI ALKAA   */
 
 .nav.fixed-top{
   background-color:rgba(0, 0, 0, 0.438);
@@ -40,14 +40,16 @@ footer{
     font-size: 30px;
 }
 .nav-item{
-  margin-left: auto;
-  margin-right: auto;
+  margin-left:20px ;
+  margin-right: 20px;
+  padding-left: 10em;
+ 
 }
 .navbar-brand2:hover{
     color:  rgb(99, 75, 233);
 }
 .nav-link{
-  color:white;
+  color:white; 
   font-weight: 600;
 }
 .nav-link:hover{
