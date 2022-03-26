@@ -432,5 +432,10 @@ dd{
 }
 .footer3{
 
-padding-top:280px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+
+/*padding-top:280px;*/
 }
