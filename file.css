@@ -1,6 +1,6 @@
 body{
     background-color: black;
-    background-image: url("kuvat/green4.png");*/
+    background-image: url("kuvat/green4.png");
 }
 .container{
     text-align: center;
@@ -227,12 +227,12 @@ dd{
 }
 
 .column2{
-padding-left: 20em;
+padding-left: 31em;
 
 }
 .column3{
   text-align: left;
-  padding-left:5em;
+  padding-left: 10em;
 }
 .otsikko2{
   text-align: left;
