@@ -235,3 +235,36 @@ padding-left: 31em;
     padding: 2%;
     letter-spacing: 3px;
 }
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column{
+    width: 100%;
+    text-align: center;
+    padding-left: 15em;
+  }
+  h1{
+    width: 100%;
+    text-align: center;
+    padding-left: 10rem;
+   
+  }
+  h3{
+    width: 100%;
+    text-align: center;
+    padding-left: 10rem;
+   
+  }
+  h2{
+    width: 100%;
+    text-align: center;
+    padding-left: 10rem;
+   
+  }
+  p{
+    width: 100%;
+    text-align: center;
+    padding-left: 10rem;
+   
+  }
+}
