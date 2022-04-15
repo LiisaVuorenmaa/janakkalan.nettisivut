@@ -268,3 +268,56 @@ padding-left: 31em;
    
   }
 }
+
+@media (max-width: 768px) {
+ 
+
+
+  .navbar-brand2{
+    display:none;
+   position: absolute;
+    padding-left: 2%;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    right: 0;
+    left: 0;
+    text-align: center;
+    padding: 16px 0;
+}
+.nav-item{
+  margin-top: 12px;
+  
+ 
+}
+.navbar-brand2:hover{
+    color:  rgb(99, 75, 233);
+}
+.nav-link{
+  color:white; 
+  margin-top: 12px;
+}
+.nav-link:hover{
+    color: rgb(99, 75, 233);
+    font-weight: 600;
+  }
+.sidebar-nav {
+    padding: 9px 0;
+}
+.dropdown-menu .sub-menu {
+    left: 100%;
+    position: absolute;
+    top: 0;
+    visibility: hidden;
+    margin-top: -1px;
+}
+.dropdown-menu li:hover .sub-menu {
+    visibility: visible;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+.nav-tabs .dropdown-menu, .nav-pills .dropdown-menu, .navbar .dropdown-menu {
+    margin-top: 0;
+}
+
+  }
