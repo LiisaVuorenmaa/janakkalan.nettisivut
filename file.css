@@ -238,6 +238,20 @@ padding-left: 31em;
 
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
+  .container{
+    text-align: center;
+  }
+  .footer3{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  footer{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
   .column{
     width: 100%;
     text-align: center;
@@ -271,6 +285,12 @@ padding-left: 31em;
     padding-left: 10rem;
    
   }
+  h4{
+    width: 100%;
+    text-align: center;
+    padding-left: 10rem;
+   
+  }
   p{
     width: 100%;
     text-align: center;
@@ -285,7 +305,7 @@ padding-left: 31em;
 
   .navbar-brand2{
     display:none;
-   position: absolute;
+
     padding-left: 2%;
     color: white;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -296,7 +316,7 @@ padding-left: 31em;
 }
 .nav-item{
   margin-top: 12px;
-  
+  text-align: center;
  
 }
 .navbar-brand2:hover{
