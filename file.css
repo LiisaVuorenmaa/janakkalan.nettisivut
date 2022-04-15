@@ -236,8 +236,9 @@ padding-left: 31em;
 @media screen and (max-width: 600px) {
   .container{
     text-align: center;
-    padding-right: 100rem;
+   
     width: 100%;
+    padding-left: 20rem;
   }
   .footer3{
     display: flex;
@@ -253,13 +254,13 @@ padding-left: 31em;
     margin-bottom: 20px;
     position: relative;
     width: 100%;
-    height: 7em;
+    height: 100rem;
   }
 
   .column{
     width: 100%;
     text-align: center;
-    padding-left: 15em;
+   
   }
   .column3{
     width: 100%;
@@ -269,36 +270,36 @@ padding-left: 31em;
   .column2{
     width: 100%;
     text-align: center;
-    padding-left: 15em;
+    padding-left: 2em;
   }
   h1{
     width: 100%;
     text-align: center;
-    padding-left: 10rem;
+    padding-top: 10rem;
+   
    
   }
   h3{
     width: 100%;
     text-align: center;
-    padding-left: 10rem;
+   
    
   }
   h2{
     width: 100%;
     text-align: center;
-    padding-left: 10rem;
-   
+    
   }
   h4{
     width: 100%;
     text-align: center;
-    padding-left: 10rem;
+    
    
   }
   p{
     width: 100%;
     text-align: center;
-    padding-left: 10rem;
+    
    
   }
 
@@ -329,29 +330,12 @@ padding-left: 31em;
 .nav-link{
   color:white; 
   margin-top: 12px;
+  text-align: center;
 }
 .nav-link:hover{
     color: rgb(99, 75, 233);
-    font-weight: 600;
+    font-weight: 200;
   }
-.sidebar-nav {
-    padding: 9px 0;
-}
-.dropdown-menu .sub-menu {
-    left: 100%;
-    position: absolute;
-    top: 0;
-    visibility: hidden;
-    margin-top: -1px;
-}
-.dropdown-menu li:hover .sub-menu {
-    visibility: visible;
-}
-.dropdown:hover .dropdown-menu {
-    display: block;
-}
-.nav-tabs .dropdown-menu, .nav-pills .dropdown-menu, .navbar .dropdown-menu {
-    margin-top: 0;
-}
+
 
 }
