@@ -245,11 +245,13 @@ padding-left: 31em;
     display: flex;
     margin-top: 10px;
     margin-bottom: 20px;
+    position: relative;
   }
   footer{
     display: flex;
     margin-top: 10px;
     margin-bottom: 20px;
+    position: relative;
   }
 
   .column{
