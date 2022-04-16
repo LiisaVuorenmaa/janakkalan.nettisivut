@@ -1,13 +1,13 @@
 body{
     background-color: black;
-    background-image: url("kuvat/pilkut.png");
+    background-image: url("kuvat/tausta3.png");
 }
 
 .container{
     text-align: center;
     padding-left: 12%;
     padding-top: 3%;
-    color: black ; 
+     
 }
 .containerlinkpage{
     text-align:center;
@@ -101,27 +101,30 @@ footer{
   width:100%;
   
 }
-
+/*palvelut sivun kuvan kuvateksitn muotoilu*/
+figcaption{
+  text-align: center;
+  
+}
 /*Otsikoiden muotoilut alkaa*/
- h1
+ .container h1
  {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 90px;
+    font-family: 'fantasy',fantasy;
+    font-size: 5em;
     text-align: center;
-    color: rgb(10, 9, 9);
-    font-weight: bold;
+    color: rgb(8, 202, 202);
     padding: 2%;
     letter-spacing: 5px;
-    font-weight: bold;
     padding-top: 50px;
     padding-bottom: 10px;
+    text-shadow: 2px 2px #353232;
  }
  h2
  {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 23px;
     text-align: center;
-    color:rgb(243, 11, 166);
+    color:rgb(5, 65, 28);
     font-weight: bold;
     padding: 2%;
     letter-spacing: 3px;
@@ -132,7 +135,7 @@ footer{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 18px;
     text-align: center;
-    color: rgb(155, 179, 111);
+    color:rgb(5, 65, 28);
     font-weight: bold;
     padding: 2%;
     letter-spacing: 3px;
@@ -148,7 +151,7 @@ footer{
 }
 
 .button {
-  background-color: rgb(92, 149, 206);
+  background-color:rgb(8, 202, 202);
   color: white;
   padding: 0.75em 1.25em;
   border: none;
@@ -173,17 +176,7 @@ dd{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
  
 }
-.basic{
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-size: 2.5em;
-  text-align: left;
-  color:rgb(243, 11, 166);
-  font-weight: bold;
-  padding: 2%;
-  letter-spacing: 0.188em;
-  
- 
-}
+
 .lisapalvelu{
   font-size: 20px;
   color:rgb(12, 12, 12);
@@ -230,6 +223,18 @@ padding-left: 31em;
     font-weight: bold;
     padding: 2%;
     letter-spacing: 3px;
+}
+
+.basic{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 2.5em;
+  text-align: left;
+  color:rgb(243, 11, 166);
+  font-weight: bold;
+  padding: 2%;
+  letter-spacing: 0.188em;
+  
+ 
 }
 
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
