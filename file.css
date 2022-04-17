@@ -106,14 +106,14 @@ figcaption{
     font-family: 'fantasy',fantasy;
     font-size: 5em;
     text-align: center;
-    color: rgb(8, 202, 202);
+    color:	#56ebe6;
     padding: 2%;
     letter-spacing: 5px;
     padding-top: 50px;
     padding-bottom: 10px;
     text-shadow: 2px 2px #353232;
  }
- h2
+ h3
  {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 23px;
@@ -135,6 +135,9 @@ figcaption{
     letter-spacing: 3px;
  }
  
+h4 a{
+  color:black
+}
 
 
 /* Container for skill bars */
@@ -145,8 +148,8 @@ figcaption{
 }
 
 .button {
-  background-color:rgb(8, 202, 202);
-  color: white;
+  background-color:	#56ebe6;
+  color: rgb(14, 13, 13);
   padding: 0.75em 1.25em;
   border: none;
   border-radius: 0.25em;
@@ -160,6 +163,8 @@ figcaption{
   padding: 1.25em;
   text-align: left;
 }
+
+
 
 dd{
   border-radius: 0.313em;
@@ -209,33 +214,31 @@ padding-left: 31em;
   text-align: left;
   padding-left: 10em;
 }
-.otsikko2{
-  text-align: left;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 23px;
-    color:rgb(243, 11, 166);
-    font-weight: bold;
-    padding: 2%;
-    letter-spacing: 3px;
-}
+
 
 .basic{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 2.5em;
   text-align: left;
-  color: rgb(37, 218, 224);
+  color:	#56ebe6;
   font-weight: bold;
   padding: 2%;
   letter-spacing: 0.188em;
- 
+  text-shadow: 2px 2px #353232;
   
  
 }
 
+
+
+
+
+
+
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
   .container .button {
-    background-color: rgb(37, 218, 224);
+    background-color:	#56ebe6;
     color: white;
     padding: 0.75em 1.25em;
     border: none;
@@ -247,7 +250,7 @@ padding-left: 31em;
   }
   .column   .basic{
 
-    color: rgb(37, 218, 224);
+    color:	#56ebe6;
     text-shadow: 2px 2px #353232;
     text-align: center;
   }
@@ -318,6 +321,9 @@ padding-left: 31em;
     
     font-size: 120%;
   }
+  h4 a{
+    color:white;
+  }
   h4{
     width: 100%;
     text-align: center;
@@ -350,7 +356,7 @@ padding-left: 31em;
  
 }
 .navbar-brand2:hover{
-    color:   rgb(37, 218, 224);
+    color:  	#56ebe6;
 }
 nav  fixed-top .nav-item .nav-link{
   color:white; 
@@ -362,7 +368,7 @@ nav  fixed-top .nav-item .nav-link{
   text-align: left;
 }
 .nav-link:hover{
-    color: rgb(37, 218, 224);
+    color:	#56ebe6;
     font-weight: 200;
   }
 
@@ -389,7 +395,7 @@ nav  fixed-top .nav-item .nav-link{
     display: none;
   }
   body{
-    background-image: url("kuvat/taustapuh.png");;
+    background-image: url("kuvat/mobiilitausta4.png");;
   }
 }
 
@@ -406,7 +412,7 @@ nav  fixed-top .nav-item .nav-link{
 
 @media screen and (min-width:601px)and(max-width: 992px) {
   container button {
-    background-color: rgb(212, 80, 212);
+    background-color: 	#56ebe6;
     color: white;
     padding: 0.75em 1.25em;
     border: none;
@@ -415,10 +421,12 @@ nav  fixed-top .nav-item .nav-link{
     height:7em;
     width:10em;
   }
-
+  body{
+    background-image: url("kuvat/mobiilitausta4.png");;
+  }
    dl dt{
 
-    color: rgb(37, 218, 224);
+    color:	#56ebe6;
     text-shadow: 2px 2px #353232;
     text-align: center;
   }
@@ -426,7 +434,7 @@ nav  fixed-top .nav-item .nav-link{
 
   .container{
     text-align: center;
-   
+  
     width: 100%;
     padding-left: 20rem;
   }
@@ -447,11 +455,7 @@ nav  fixed-top .nav-item .nav-link{
     height: 10rem;
   }
 
-  .column{
-    width: 100%;
-    text-align: center;
-   
-  }
+
   .column3{
     width: 100%;
     text-align: center;
@@ -480,10 +484,13 @@ nav  fixed-top .nav-item .nav-link{
     text-align: center;
     
   }
+  h4 a{
+    color:white;
+  }
   h4{
     width: 100%;
     text-align: center;
-    
+    color: white
    
   }
   p{
@@ -493,7 +500,7 @@ nav  fixed-top .nav-item .nav-link{
    
   }
 
-
+ 
 
  
 
@@ -512,7 +519,7 @@ nav  fixed-top .nav-item .nav-link{
  
 }
 .navbar-brand2:hover{
-    color:  rgb(37, 218, 224);
+    color: 	#56ebe6;
 }
 nav  fixed-top .nav-item .nav-link{
   color:white; 
@@ -524,7 +531,7 @@ nav  fixed-top .nav-item .nav-link{
   text-align: left;
 }
 .nav-link:hover{
-    color:  rgb(37, 218, 224);
+    color: 	#56ebe6;
     font-weight: 200;
   }
 
