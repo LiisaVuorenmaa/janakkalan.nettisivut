@@ -113,17 +113,7 @@ figcaption{
     padding-bottom: 10px;
     text-shadow: 2px 2px #353232;
  }
- h3
- {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 23px;
-    text-align: center;
-    color:rgb(5, 65, 28);
-    font-weight: bold;
-    padding: 2%;
-    letter-spacing: 3px;
 
- }
  h3
  {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -134,9 +124,14 @@ figcaption{
     padding: 2%;
     letter-spacing: 3px;
  }
+
+ h4{
+   padding-left:1em;
+ }
  
 h4 a{
   color:black
+  
 }
 
 
@@ -322,7 +317,7 @@ padding-left: 31em;
     font-size: 120%;
   }
   h4 a{
-    color:white;
+    color:rgb(8, 8, 8);
   }
   h4{
     width: 100%;
