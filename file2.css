@@ -324,7 +324,7 @@ h4{
   text-align: center;
   /*padding-left: 30rem;*/
   font-weight: bold;
-  padding-top: 23em;
+  margin-top: 31em;
   
 }
 
@@ -343,7 +343,7 @@ h4{
 }
 /*etusivun tekstit*/
 .etusivunTeksti{
-  padding-top: 5%;
+	margin-top: 9em;
 }
 
 /*etusivun pieni teksti otsikon alla*/
@@ -355,7 +355,7 @@ h4{
 
 /*palvelut sivun huomautus yksityishenkilöiltä tilaamisesta*/
 .huomautus{
-	padding-left: 30rem;
+	text-align: center;
 }
 
 /*yhteyden otto sivun puhelinnumero ja s-posti*/
@@ -445,6 +445,80 @@ p a {
 	color: #fff;
 	color:  #e23a6e;;
 }
+@media screen and (max-width: 1600px) {
+
+	.st-container > a {
+		font-size: 10px;
+	}
+	
+	.st-deco{
+		width: 120px;
+		height: 120px;
+		margin-left: -60px;
+   
+	}
+	
+	[data-icon]:after {
+		font-size: 60px;
+		-webkit-transform: rotate(-45deg) translateY(15%);
+		-moz-transform: rotate(-45deg) translateY(15%);
+		-o-transform: rotate(-45deg) translateY(15%);
+		-ms-transform: rotate(-45deg) translateY(15%);
+		transform: rotate(-45deg) translateY(15%);
+	}
+  
+   .etusivunTeksti{
+    font-size: 20px;
+	margin-top: 6em;
+  }
+  h3{
+	
+    text-align: center;
+    padding-top: 20%;
+    font-size: 17px;
+  }
+  h4{
+	text-align: center;
+    padding-left:none ;
+	font-size: 13px;
+  }
+  
+   .hinnasto{
+    text-align: center;
+	margin-top:40em;
+    font-weight: bold;
+    padding-left:none ;
+    font-size: 10px;
+	
+  }
+  
+  .lisapalvelut{
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    padding-left:none ;
+  }
+  .huomautus{
+	text-align: center;
+	padding-left:0% ;
+  }
+    /*+domain otsikossa otsikko*/
+  .lisapalvelu{
+	text-align: center;
+	font-size: 8px;
+    font-weight: bold;
+  }
+
+/*etusivun pieni teksti otsikon alla*/
+.sloganEtusivu p{
+	color: rgba(228, 153, 15, 0.911);
+	font-size: smaller;
+	font-weight: bold;
+  }
+.basic{
+	font-size: 20px;
+}
+}
 
 @media screen and (max-width: 1500px) {
 
@@ -486,7 +560,7 @@ p a {
   
    .hinnasto{
     text-align: center;
-	margin-top:13em;
+	margin-top:40em;
     font-weight: bold;
     padding-left:none ;
     font-size: 10px;
@@ -562,7 +636,7 @@ p a {
   
    .hinnasto{
     text-align: center;
-	margin-top:10em;
+	margin-top:30em;
     font-weight: bold;
     padding-left:none ;
     font-size: 12px;
@@ -631,7 +705,7 @@ p a {
   
    .hinnasto{
     text-align: left;
-     margin-top:1em ;
+     margin-top:25em ;
     font-weight: bold;
     padding-left:none ;
     font-size: 15px;
@@ -685,7 +759,7 @@ p a {
 
   .etusivunTeksti{
     font-size: 12px;  
-    padding-top: 20%;
+    margin-top: 20%;
   }
 
   h3{
@@ -702,9 +776,9 @@ p a {
   
    .hinnasto{
     text-align: left;
-	margin-top:1em;
+	margin-top:25em;
     font-weight: bold;
-    padding-left:none ;
+    padding-left:0% ;
     font-size: 15px;
 	
   }
