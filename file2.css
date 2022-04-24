@@ -303,6 +303,14 @@ a {
 	animation: moveUp 0.6s ease-in-out 0.2s backwards;
 }
 
+/*nimi Liisa vuorenmaa yhteydenotto sivulla*/
+#st-panel-3 p{
+
+	color: black;
+	font-weight: bold;
+	font-size: larger;
+}
+
 h3{
   text-align: center;
   padding-top: 22%;
@@ -311,36 +319,51 @@ h4{
 	text-align: center;
 }
 
+/*hinnaston lista*/
 .hinnasto{
   text-align: center;
   /*padding-left: 30rem;*/
   font-weight: bold;
   padding-top: 23em;
+  
 }
 
+/*hinnaston lisäpalvelut*/
 .lisapalvelut{
   text-align: center;
   font-weight: bold;
   padding-top: 0%;
 }
+
+/*hinnaston otsikko kotisivu basic*/
 .basic{
   text-align: center;
   font-size: larger;
   font-weight: bold;
 }
+/*etusivun tekstit*/
 .etusivunTeksti{
   padding-top: 5%;
 }
 
+/*etusivun pieni teksti otsikon alla*/
 .sloganEtusivu p{
   color: rgba(228, 153, 15, 0.911);
   font-size: medium;
+  font-weight: bold;
 }
 
+/*palvelut sivun huomautus yksityishenkilöiltä tilaamisesta*/
 .huomautus{
 	padding-left: 30rem;
 }
 
+/*yhteyden otto sivun puhelinnumero ja s-posti*/
+p a {
+	font-weight: bold;
+	font-size: large;
+	color: black;
+}
 @-webkit-keyframes moveUp{
 	0% { 
 		-webkit-transform: translateY(40px); 
@@ -420,30 +443,11 @@ h4{
 } 
 .st-color p {
 	color: #fff;
-	color: rgba(255,255,255,0.8);
+	color:  #e23a6e;;
 }
 
-@media screen and (max-width: 520px) {
-	.st-panel h2 {
-		font-size: 42px;
-	}
-	
-	.st-panel p {
-		width: 90%;
-		left: 5%;
-		margin-top: 0;
-	}
-	
-	.st-container > a {
-		font-size: 13px;
-	}
+@media screen and (max-width: 1500px) {
 
-  .etusivunTeksti{
-    font-size: 12px;
-    padding-top: 80%;
-  }
-}
-@media screen and (max-width: 360px) {
 	.st-container > a {
 		font-size: 10px;
 	}
@@ -465,30 +469,280 @@ h4{
 	}
   
    .etusivunTeksti{
-    font-size: 17px;;
+    font-size: 20px;
+	margin-top: 6em;
   }
   h3{
+	
     text-align: center;
     padding-top: 20%;
     font-size: 17px;
   }
   h4{
-    padding-left: 30rem;
+	text-align: center;
+    padding-left:none ;
+	font-size: 13px;
   }
   
-  .st-panel-2 .hinnasto{
+   .hinnasto{
     text-align: center;
-   
+     padding-top:28em;
     font-weight: bold;
     padding-left:none ;
-    font-size: 50%;
+    font-size: 10px;
+	
+  }
+  
+  .lisapalvelut{
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    padding-left:none ;
+  }
+  .huomautus{
+	text-align: center;
+	padding-left:0% ;
+  }
+    /*+domain otsikossa otsikko*/
+  .lisapalvelu{
+	text-align: center;
+	font-size: 8px;
+    font-weight: bold;
+  }
+
+/*etusivun pieni teksti otsikon alla*/
+.sloganEtusivu p{
+	color: rgba(228, 153, 15, 0.911);
+	font-size: smaller;
+	font-weight: bold;
+  }
+.basic{
+	font-size: 20px;
+}
+}
+
+
+@media screen and (max-width: 999px) {
+
+	.st-container > a {
+		font-size: 10px;
+	}
+	
+	.st-deco{
+		width: 120px;
+		height: 120px;
+		margin-left: -60px;
+   
+	}
+	
+	[data-icon]:after {
+		font-size: 60px;
+		-webkit-transform: rotate(-45deg) translateY(15%);
+		-moz-transform: rotate(-45deg) translateY(15%);
+		-o-transform: rotate(-45deg) translateY(15%);
+		-ms-transform: rotate(-45deg) translateY(15%);
+		transform: rotate(-45deg) translateY(15%);
+	}
+  
+   .etusivunTeksti{
+    font-size: 20px;
+	margin-top: 30em;
+  }
+  h3{
+	
+    text-align: center;
+    padding-top: 20%;
+    font-size: 17px;
+  }
+  h4{
+	text-align: center;
+    padding-left:none ;
+	font-size: 20px;
+  }
+  
+   .hinnasto{
+    text-align: center;
+     padding-top:55em;
+    font-weight: bold;
+    padding-left:none ;
+    font-size: 12px;
+	
+  }
+  
+  .lisapalvelut{
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    padding-left:none ;
+  }
+  .huomautus{
+	text-align: center;
+	padding-left:0% ;
+  }
+    /*+domain otsikossa otsikko*/
+  .lisapalvelu{
+	text-align: center;
+	font-size: 20px;
+    font-weight: bold;
+  }
+
+/*etusivun pieni teksti otsikon alla*/
+.sloganEtusivu p{
+	color: rgba(228, 153, 15, 0.911);
+	font-size: smaller;
+	font-weight: bold;
+  }
+
+}
+
+
+@media screen and (max-width: 520px) {
+	.st-panel h2 {
+		font-size: 30px;
+	}
+	
+	.st-panel p {
+		width: 90%;
+		left: 5%;
+		margin-top: 0;
+	}
+	
+	.st-container > a {
+		font-size: 13px;
+	}
+
+  .etusivunTeksti{
+    font-size: 12px;  
+    padding-top: 20%;
+  }
+
+  h3{
+	
+    text-align: center;
+    padding-top: 20%;
+    font-size: 12px;
+  }
+  h4{
+	text-align: center;
+    padding-left:none ;
+	font-size: 12px;
+  }
+  
+   .hinnasto{
+    text-align: left;
+     padding-top:28em;
+    font-weight: bold;
+    padding-left:none ;
+    font-size: 15px;
+	
   }
   
   .lisapalvelut{
     text-align: left;
-    padding-left: 30rem;
+    font-size: 10px;
     font-weight: bold;
-   
+    padding-left:none ;
+  }
+  .huomautus{
+	text-align: center;
+	padding-left:0% ;
+	font-size: 10px;
+  }
+
+  .lisapalvelu{
+	text-align: center;
+	font-size: 12px;
+  }
+
+/*etusivun pieni teksti otsikon alla*/
+.sloganEtusivu p{
+	color: rgba(228, 153, 15, 0.911);
+	font-size: smaller;
+	font-weight: bold;
   }
 
 }
+
+
+
+
+@media screen and (max-width: 376px){
+	.st-container > a {
+		font-size: 10px;
+	}
+	
+	.st-deco{
+		width: 120px;
+		height: 120px;
+		margin-left: -60px;
+   
+	}
+	
+	[data-icon]:after {
+		font-size: 60px;
+		-webkit-transform: rotate(-45deg) translateY(15%);
+		-moz-transform: rotate(-45deg) translateY(15%);
+		-o-transform: rotate(-45deg) translateY(15%);
+		-ms-transform: rotate(-45deg) translateY(15%);
+		transform: rotate(-45deg) translateY(15%);
+	}
+  
+   .etusivunTeksti{
+    font-size: 10px !important ;
+	margin-top: 4em;
+  }
+  h3{
+	
+    text-align: center;
+    padding-top: 20%;
+    font-size: 17px;
+  }
+  h4{
+	text-align: center;
+    padding-left:none ;
+	font-size: 12px;
+  }
+  
+   .hinnasto{
+    text-align: left;
+     padding-top:28em;   
+    font-weight: bold;
+    padding-left:none ;
+    font-size: 12px;
+	
+  }
+  
+  .lisapalvelut{
+    text-align: left;
+    font-size: 12px;
+    font-weight: bold;
+    padding-left:none ;
+  }
+  .huomautus{
+	text-align: center;
+	padding-left:none ;
+	font-size: 10px;
+	margin-bottom: 2%;
+  }
+
+  .lisapalvelu{
+	text-align: center;
+  }
+
+/*etusivun pieni teksti otsikon alla*/
+.sloganEtusivu p{
+	color: rgba(228, 153, 15, 0.911);
+	font-size: smaller;
+	font-weight: bold;
+  }
+
+}
+
+
+
+
+
+
+
+
+
