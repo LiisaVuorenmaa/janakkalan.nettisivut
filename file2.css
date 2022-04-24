@@ -308,24 +308,23 @@ h3{
   padding-top: 22%;
 }
 h4{
-  padding-left: 30rem;
+	text-align: center;
 }
 
 .hinnasto{
-  text-align: left;
-  padding-left: 30rem;
+  text-align: center;
+  /*padding-left: 30rem;*/
   font-weight: bold;
   padding-top: 23em;
 }
 
 .lisapalvelut{
-  text-align: left;
-  padding-left: 30rem;
+  text-align: center;
   font-weight: bold;
   padding-top: 0%;
 }
 .basic{
-  text-align: left;
+  text-align: center;
   font-size: larger;
   font-weight: bold;
 }
@@ -465,7 +464,7 @@ h4{
 		transform: rotate(-45deg) translateY(15%);
 	}
   
-  .etusivunTeksti{
+   .etusivunTeksti{
     font-size: 17px;;
   }
   h3{
@@ -477,12 +476,12 @@ h4{
     padding-left: 30rem;
   }
   
-  .hinnasto{
-    text-align: left;
-    padding-left: ;
+  .st-panel-2 .hinnasto{
+    text-align: center;
+   
     font-weight: bold;
-    padding-top: ;
-    font-size: smaller;
+    padding-left:none ;
+    font-size: 50%;
   }
   
   .lisapalvelut{
