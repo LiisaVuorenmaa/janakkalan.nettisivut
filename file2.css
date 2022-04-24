@@ -486,7 +486,7 @@ p a {
   
    .hinnasto{
     text-align: center;
-     padding-top:35em;
+	margin-top:13em;
     font-weight: bold;
     padding-left:none ;
     font-size: 10px;
@@ -562,7 +562,7 @@ p a {
   
    .hinnasto{
     text-align: center;
-     padding-top:30em;
+	margin-top:10em;
     font-weight: bold;
     padding-left:none ;
     font-size: 12px;
@@ -596,7 +596,7 @@ p a {
 }
 
 
-@media screen and (max-width: 580px) {
+@media screen and (max-width: 592px) {
 	.st-panel h2 {
 		font-size: 30px;
 	}
@@ -614,6 +614,7 @@ p a {
   .etusivunTeksti{
     font-size: 12px;  
     padding-top: 20%;
+	display:none;
   }
 
   h3{
@@ -630,7 +631,7 @@ p a {
   
    .hinnasto{
     text-align: left;
-     padding-top:17em;
+     margin-top:1em ;
     font-weight: bold;
     padding-left:none ;
     font-size: 15px;
@@ -701,7 +702,7 @@ p a {
   
    .hinnasto{
     text-align: left;
-     padding-top:25em;
+	margin-top:1em;
     font-weight: bold;
     padding-left:none ;
     font-size: 15px;
@@ -774,9 +775,9 @@ p a {
 	font-size: 12px;
   }
   
-   .hinnasto{
+   p .hinnasto{
     text-align: left;
-     padding-top:22em;   
+	margin-top:1em;  
     font-weight: bold;
     padding-left:none ;
     font-size: 12px;
