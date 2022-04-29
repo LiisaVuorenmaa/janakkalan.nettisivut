@@ -485,16 +485,16 @@ p a {
   
    .hinnasto{
     text-align: center;
-	margin-top:40em;
+	margin-top:25em;
     font-weight: bold;
     padding-left:none ;
-    font-size: 10px;
+    font-size: 15px;
 	
   }
   
   .lisapalvelut{
     text-align: center;
-    font-size: 12px;
+    font-size: 15px;
     font-weight: bold;
     padding-left:none ;
   }
@@ -505,7 +505,7 @@ p a {
     /*+domain otsikossa otsikko*/
   .lisapalvelu{
 	text-align: center;
-	font-size: 8px;
+	font-size: 15px;
     font-weight: bold;
   }
 
@@ -580,7 +580,7 @@ p a {
     /*+domain otsikossa otsikko*/
   .lisapalvelu{
 	text-align: center;
-	font-size: 8px;
+	font-size: 20px;
     font-weight: bold;
   }
 
@@ -639,7 +639,7 @@ p a {
 	margin-top:30em;
     font-weight: bold;
     padding-left:none ;
-    font-size: 12px;
+    font-size: 18px;
 	
   }
   
@@ -726,7 +726,7 @@ p a {
 
   .lisapalvelu{
 	text-align: center;
-	font-size: 12px;
+	font-size: 13px;
   }
 
 /*etusivun pieni teksti otsikon alla*/
@@ -776,10 +776,10 @@ p a {
   
    .hinnasto{
     text-align: left;
-	margin-top:25em;
+	margin-top:24,3em;
     font-weight: bold;
     padding-left:0% ;
-    font-size: 15px;
+    font-size: 14px;
 	
   }
   
@@ -797,7 +797,7 @@ p a {
 
   .lisapalvelu{
 	text-align: center;
-	font-size: 12px;
+	font-size: 13px;
   }
 
 /*etusivun pieni teksti otsikon alla*/
